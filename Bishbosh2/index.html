@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishbosh 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bish-Bosh 2.0</h1>
+    </header>
+
+    <main>
+
+        <p class="defaultParagraph">
+            
+            Denna sida är skapad för att genomföra övningen Bish-Bosh. Bish-Bosh-övningen är utformad så att en lista ska skrivas ut baserat på ett startvärde 1 och ett slutvärde som bestäms som indata.
+            För varje tal melllan start- och slutvärdet så ska det kontrolleras om talet är jämnt delbart med två olika divisionstal. Om talet är jämnt delbart med båda divisionstalen så ska 'Bish-Bosh' skrivas ut.
+            Om talet bara är jämnt delbart med det första divisionstalet så ska 'Bish' skrivas ut, och om det bara är jämnt delbart med det andra divisionstalet så ska 'Bosh' skrivas ut.
+
+        </p>
+
+        <label for="loopNumber">Loop tal:</label><br>
+            <input type="text" id="loopNumber" name="loopNumber" value="100"><br>
+
+            <label for="firstDivider">Första divisiontal:</label><br>
+            <input type="text" id="firstDivider" name="firstDivider" value="3"><br>
+
+            <label for="secondDivider">Andra divisiontal:</label><br>
+            <input type="text" id="secondDivider" name="secondDivider" value="4"><br>
+
+            <input type="submit" value="Kör" id="execButton" name="execButton">
+
+            <p class="defaultParagraph" id="outputArea">
+
+
+            </p>
+
+    </main>
+
+    <footer>
+        Copyright 2022 by Andreas Åkerberg
+    </footer>
+
+    <script src="bishbosh.js"></script>
+</body>
+
+</html>
