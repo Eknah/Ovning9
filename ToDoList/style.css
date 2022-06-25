@@ -1,0 +1,12 @@
+
+.listItem {
+    background-color: #eee;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.listItemChecked {
+    background-color: #0af;
+    text-decoration-line: line-through;
+}
