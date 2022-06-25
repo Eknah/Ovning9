@@ -1,9 +1,9 @@
 
 
-let execButton = document.getElementById("execButton");
+let execButton = document.querySelector("#execButton");
 
-execButton.onclick = function() {
-    
+const runBishBosh = function() {
+
     let inputLoopNumber = document.querySelector("#loopNumber");
     let inputFirstDivider = document.querySelector("#firstDivider");
     let inputSecondDivider = document.querySelector("#secondDivider");
@@ -12,7 +12,7 @@ execButton.onclick = function() {
     let firstDivider = parseInt(inputFirstDivider.value);
     let secondDivider = parseInt(inputSecondDivider.value);
     
-    let outputArea = document.getElementById("outputArea");
+    let outputArea = document.querySelector("#outputArea");
 
     outputArea.innerHTML = `<b>Resultat:</b><br>`;
     outputArea.innerHTML += `Iterera loop mellan 1 och ${loopNumber} <br/>`;
@@ -30,3 +30,5 @@ execButton.onclick = function() {
     }
 
 };
+
+execButton.addEventListener('click', runBishBosh)
