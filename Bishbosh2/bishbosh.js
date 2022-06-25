@@ -4,9 +4,9 @@ let execButton = document.getElementById("execButton");
 
 execButton.onclick = function() {
     
-    let inputLoopNumber = document.getElementById("loopNumber");
-    let inputFirstDivider = document.getElementById("firstDivider");
-    let inputSecondDivider = document.getElementById("secondDivider");
+    let inputLoopNumber = document.querySelector("#loopNumber");
+    let inputFirstDivider = document.querySelector("#firstDivider");
+    let inputSecondDivider = document.querySelector("#secondDivider");
 
     let loopNumber = parseInt(inputLoopNumber.value);
     let firstDivider = parseInt(inputFirstDivider.value);
