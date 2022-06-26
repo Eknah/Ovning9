@@ -10,3 +10,8 @@
     background-color: #0af;
     text-decoration-line: line-through;
 }
+
+.innerListItemChild {
+    width: 20%;
+    display:inline-block;
+}
